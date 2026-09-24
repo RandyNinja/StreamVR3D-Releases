@@ -1,6 +1,6 @@
 # StreamVR3D
 
-StreamVR3D is a Quest VR cinema app with an optional Windows setup companion. The app is planned as a free binary release. Development source is private.
+StreamVR3D is a Quest VR cinema app with an optional Windows setup companion. Releases of the app are free. Development source is private.
 
 ## What it does
 
@@ -15,7 +15,7 @@ StreamVR3D is a Quest VR cinema app with an optional Windows setup companion. Th
 
 **Quest 3 is the only headset tested so far.** Compatibility with other Quest models is unverified. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer and requires Android Studio with SDK Platform-Tools and Build-Tools. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
 
-**No public build is available yet.** When release checks are complete, the signed Quest APK, Windows setup package, and SHA-256 checksums will appear on this repository's Releases page. Do not install files described as official StreamVR3D releases from other sites.
+Check [Releases](https://github.com/RandyNinja/StreamVR3D-Releases/releases) for available signed Quest APKs, Windows setup packages, SHA-256 checksums, and verification notes. Do not install files described as official StreamVR3D releases from other sites.
 
 StreamVR3D includes no films, streams, third-party subscriptions, or permission to view copyrighted media. Use only media and services you are authorized to access. The default addon recommendations are limited to included features, Cinemeta, OpenSubtitles, and WatchHub availability links. Other recommendations require acknowledged Developer Mode; adult recommendations require a separate adult-content acknowledgement.
 
