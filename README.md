@@ -33,3 +33,7 @@ StreamVR3D includes no films, streams, third-party subscriptions, or permission 
 Issues and feature requests are welcome. Please keep credentials, personal addon links, device identifiers, and private logs out of public reports.
 
 The source code is not in this repository. GitHub's automatically generated source archives contain only these public documents.
+
+## Support the developer
+
+StreamVR3D and its features are free. If you would like to support RandyNinja’s ongoing development work, you can [leave an optional tip](https://buymeacoffee.com/randyninja). Tips do not buy app access, media, add-ons, features, or priority support.
