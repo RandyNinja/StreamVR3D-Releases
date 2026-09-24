@@ -2,10 +2,12 @@
 
 These are draft instructions for a future approved release. No official public download is available yet.
 
+**Device support notice:** Only Meta Quest 3 has been tested with StreamVR3D. Other Quest models have not been verified. This is a sideloaded Quest app; the optional Windows companion is an installer, not a Windows video player.
+
 ## Before you start
 
-- A supported Quest headset, a Windows PC, and a USB-C cable that carries data.
-- Developer Mode enabled for the headset using Meta's current developer setup guidance.
+- A Meta Quest 3, a Windows PC, and a USB-C cable that carries data. Other Quest models are untested.
+- A Meta developer account and Developer Mode enabled for the headset using [Meta's current device setup guidance](https://developers.meta.com/horizon/documentation/android-apps/enable-developer-mode/).
 - A signed Quest APK and the matching Windows setup package from the same official StreamVR3D release.
 - For the current Windows companion design, Android Studio with **Android SDK Platform-Tools** and **Android SDK Build-Tools** installed through its SDK Manager. Android Studio includes a Java runtime. These tools are free but are obtained directly from Google, not bundled in this draft package. See the [official Android Studio installation guide](https://developer.android.com/studio/install) and [Platform-Tools page](https://developer.android.com/tools/releases/platform-tools).
 
