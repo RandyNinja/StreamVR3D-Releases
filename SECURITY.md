@@ -1,7 +1,7 @@
 # Security reporting
 
-Please report suspected StreamVR3D vulnerabilities privately. **The reporting form is not active while this repository is private.** Before public release, the publisher will enable GitHub private vulnerability reporting. Once enabled, open **Security → Report a vulnerability** in this repository. Do not post exploit details, credentials, private addon links, device identifiers, or personal logs in public issues or Discord.
+Please report suspected StreamVR3D vulnerabilities privately through **Security → Report a vulnerability** in this repository. GitHub makes this route available after a repository is public and its owner enables private vulnerability reporting.
 
-Include the affected app version, steps to reproduce, the observed result, and the likely impact. Redact tokens, usernames, provider URLs, and local paths. The publisher will review reports and coordinate fixes where possible; no fixed response time is promised.
+Do not post exploit details, credentials, private addon links, device identifiers, or personal logs in public issues or Discord. Include the affected app version, steps to reproduce, the observed result, and likely impact. Redact tokens, usernames, provider URLs, and local paths. The publisher will review reports and coordinate fixes where possible; no fixed response time is promised.
 
-If the **Report a vulnerability** button is unavailable, do not put vulnerability details in a public issue. The publisher must enable the private reporting route before opening the repository to the public.
+If **Report a vulnerability** is unavailable, do not disclose vulnerability details in a public issue. The maintainer must restore the private reporting route.
