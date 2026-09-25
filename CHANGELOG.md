@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.6.57 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.57) — 25 September 2026
+
+- Shortened optional experimental trailer autoplay from four seconds to two seconds after explicit selection of a non-adult title card. It remains off by default, and the manual trailer button remains.
+- Installed the signed v0.6.57/code 110 APK over v0.6.56 on Quest 3. The two-second trailer interaction has not had a separate headset check. Physical Quest 2 testing remains pending.
+- The cinema interface, background Home row loading, BoS IMAX Home fix, and adult Home opt-in continue from v0.6.56.
+
 ## [v0.6.56 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.56) — 25 September 2026
 
 - Refreshed the cinema interface with selected-title artwork, translucent panels, an icon-rail sidebar, a trailer tile when available, and tinting from the four existing colour themes.
