@@ -1,4 +1,4 @@
-**Latest preview:** [Download StreamVR3D v0.6.57 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.57). Quest 3 has been physically tested; Quest 2 remains unverified on hardware. See the release notes for changes and verification limits.
+**Latest preview:** [Download StreamVR3D v0.6.59 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.59). Quest 3 has been physically tested; Quest 2 remains unverified on hardware. See the release notes for changes and verification limits.
 
 # StreamVR3D
 
