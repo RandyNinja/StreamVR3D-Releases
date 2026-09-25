@@ -11,7 +11,11 @@ StreamVR3D is a Quest VR cinema app with an optional Windows setup companion. Re
 - Requests HDR-to-SDR tone mapping for HDR sources, including Dolby Vision where the device decoder supports it. The player indicates when conversion is verified and warns when it is not.
 - Provides subtitle selection, picture controls, and adjustable screen placement for flat video.
 - Browses film and series catalogues through configured add-ons, with watch history and local settings.
+- Uses a redesigned cinema interface with selected-title artwork, translucent panels, a sidebar that folds into an icon rail, and a trailer tile when available. Optional experimental trailer autoplay is off by default.
+- Loads Home addon catalogue rows in the background, shows their status, and retries failed rows.
 - Supports optional adult live streams through user-configured third-party add-ons. This is for adults 18 or older, subject to any higher local legal age. It requires Developer Mode and adult controls; Kids profiles cannot access it. Availability depends on the provider. Profile and PIN controls do not verify age.
+
+MDBList watchlist screens are included in v0.6.56, but normal account pairing is unavailable because a registered app ID is not configured in this build. Developer Mode allows manual app ID entry. Live service testing is not documented, and MDBList watchlists are separate from local My List and history.
 
 ## Quest installation requirements
 
