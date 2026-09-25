@@ -1,4 +1,4 @@
-**Latest preview:** [Download StreamVR3D v0.6.56 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.56). Quest 3 has been physically tested; Quest 2 remains unverified on hardware. See the release notes for changes and verification limits.
+**Latest preview:** [Download StreamVR3D v0.6.57 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.57). Quest 3 has been physically tested; Quest 2 remains unverified on hardware. See the release notes for changes and verification limits.
 
 # StreamVR3D
 
@@ -15,11 +15,11 @@ StreamVR3D is a Quest VR cinema app with an optional Windows setup companion. Re
 - Loads Home addon catalogue rows in the background, shows their status, and retries failed rows.
 - Supports optional adult live streams through user-configured third-party add-ons. This is for adults 18 or older, subject to any higher local legal age. It requires Developer Mode and adult controls; Kids profiles cannot access it. Availability depends on the provider. Profile and PIN controls do not verify age.
 
-MDBList watchlist screens are included in v0.6.56, but normal account pairing is unavailable because a registered app ID is not configured in this build. Developer Mode allows manual app ID entry. Live service testing is not documented, and MDBList watchlists are separate from local My List and history.
+MDBList watchlist screens are included in v0.6.57, but normal account pairing is unavailable because a registered app ID is not configured in this build. Developer Mode allows manual app ID entry. Live service testing is not documented, and MDBList watchlists are separate from local My List and history.
 
 ## Quest installation requirements
 
-**Quest 3 is the only headset physically tested.** Quest 2 detection passed automated checks for the v0.6.56 Windows setup tool, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer and requires Android Studio with SDK Platform-Tools and Build-Tools. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
+**Quest 3 is the only headset physically tested.** Quest 2 detection passed automated checks for the v0.6.57 Windows setup tool, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer and requires Android Studio with SDK Platform-Tools and Build-Tools. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
 
 Check [Releases](https://github.com/RandyNinja/StreamVR3D-Releases/releases) for available signed Quest APKs, Windows setup packages, SHA-256 checksums, and verification notes. Do not install files described as official StreamVR3D releases from other sites.
 
