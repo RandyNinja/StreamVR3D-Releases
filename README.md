@@ -1,4 +1,4 @@
-**Latest preview:** [Download StreamVR3D v0.6.59 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.59). Quest 3 has been physically tested; Quest 2 remains unverified on hardware. See the release notes for changes and verification limits.
+**Latest preview:** [Download StreamVR3D v0.6.61 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.61). Quest 3 was tested with earlier builds, but v0.6.61 has not yet been installed or visually checked on a headset; Quest 2 remains untested on physical hardware. See the release notes for changes and verification limits.
 
 # StreamVR3D
 
@@ -19,7 +19,7 @@ MDBList watchlist screens are included in v0.6.57, but normal account pairing is
 
 ## Quest installation requirements
 
-**Quest 3 is the only headset physically tested.** Quest 2 detection passed automated checks for the v0.6.57 Windows setup tool, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer and requires Android Studio with SDK Platform-Tools and Build-Tools. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
+**Quest 3 is the only headset physically tested in earlier builds; v0.6.61 has not yet had a headset check.** Quest 2 detection has automated installer coverage, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer; it needs Android Platform-Tools, SDK Build-Tools, and Java for device detection and APK verification. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
 
 Check [Releases](https://github.com/RandyNinja/StreamVR3D-Releases/releases) for available signed Quest APKs, Windows setup packages, SHA-256 checksums, and verification notes. Do not install files described as official StreamVR3D releases from other sites.
 
