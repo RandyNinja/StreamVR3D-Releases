@@ -1,5 +1,14 @@
 # Changelog
 
+## [v0.6.59 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.59) — 25 September 2026
+
+- Source cards distinguish Premiumize-verified cache status from addon-reported cache claims; magnet links no longer show a misleading blue CACHE action.
+- Without Premiumize connected, playable HTTPS links resolved by configured addons can appear in Sources. Magnet-only rows and Premiumize cloud transfer are omitted. An addon still has to supply a playable link.
+- Premiumize cloud transfers show clearer submission progress and errors.
+- APK v0.6.59/code 112 passed 435 Unity EditMode tests, Android v3 signature verification, and a Quest 3 install and launch over the v0.6.58 candidate. Real-Debrid-only playback on the affected headset and Quest 2 hardware support remain unverified.
+- APK-only release; no v0.6.59 Windows installer was built.
+
+
 ## [v0.6.57 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.57) — 25 September 2026
 
 - Shortened optional experimental trailer autoplay from four seconds to two seconds after explicit selection of a non-adult title card. It remains off by default, and the manual trailer button remains.
