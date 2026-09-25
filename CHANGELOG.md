@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.6.61 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.61) — 25 September 2026
+
+- Passed safe, non-credential Stremio request headers into Media3 playback; credential headers remain excluded.
+- Separated resolved HTTPS addon playback from Premiumize cloud transfer. Unresolved magnets need a playable link; only explicitly Premiumize-identified sources can trigger the app's Premiumize cache check.
+- Improved the standalone Real-Debrid provider's single-video selection and error messages. It is not wired to the Quest cloud UI; there is no native Real-Debrid account integration.
+- Published matching v0.6.61/code 114 Quest APK and Windows installer bundle. The installer ZIP contains the same signed APK.
+- 440 Unity EditMode tests, 34 installer checks, and Android v3 signature verification passed. This build has not had a Quest install or visual check. Real-Debrid behavior was tested with simulated responses; Quest 2 remains untested on physical hardware.
+
+
+
 ## [v0.6.59 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.59) — 25 September 2026
 
 - Source cards distinguish Premiumize-verified cache status from addon-reported cache claims; magnet links no longer show a misleading blue CACHE action.
