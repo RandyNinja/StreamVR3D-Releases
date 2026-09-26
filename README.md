@@ -1,4 +1,4 @@
-**Latest preview:** [Download StreamVR3D v0.6.69 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.69). It installed successfully as an update on Quest 3; interactive testing of the new catalogue and interface remains pending. Quest 2 remains untested on physical hardware. See the release notes for changes and verification limits.
+**Latest preview:** [Download StreamVR3D v0.6.89 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.89). It installed as an update on Quest 3, and the previously crash-causing Dolby Vision Profile 7 source now shows an unsupported warning without closing the app. Other v0.6.89 features still need broader headset checks; Quest 2 remains untested on physical hardware. See the release notes for changes and verification limits.
 
 # StreamVR3D
 
@@ -11,6 +11,8 @@ StreamVR3D is a Quest VR cinema app with an optional Windows setup companion. Re
 - Requests HDR-to-SDR tone mapping for HDR sources, including Dolby Vision where the device decoder supports it. The player indicates when conversion is verified and warns when it is not.
 - Provides subtitle selection, picture controls, and adjustable screen placement for flat video.
 - Browses film and series catalogues through configured add-ons, with watch history and local settings.
+- Live TV integration browses channels supplied by compatible installed add-ons, with country and category filters, a selected-channel preview, and optional programme guides. No channels are bundled; availability and guide coverage depend on the add-on.
+- Anime separates TV series and Movies catalogues and includes an optional English-dub catalogue filter for the included Anime Catalogs source. This filters catalogue entries, not playback audio tracks.
 - Uses a redesigned cinema interface with selected-title artwork, translucent panels, a sidebar that folds into an icon rail, and a trailer tile when available. Optional experimental trailer autoplay is off by default.
 - Loads Home addon catalogue rows in the background, shows their status, and retries failed rows.
 - Supports optional adult live streams through user-configured third-party add-ons. This is for adults 18 or older, subject to any higher local legal age. It requires Developer Mode and adult controls; Kids profiles cannot access it. Availability depends on the provider. Profile and PIN controls do not verify age.
@@ -19,7 +21,7 @@ MDBList watchlist screens are included in v0.6.57, but normal account pairing is
 
 ## Quest installation requirements
 
-**Quest 3 is the only headset physically tested; v0.6.69 installed successfully, while interactive testing of its changes is pending.** Quest 2 detection has automated installer coverage, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer; it needs Android Platform-Tools, SDK Build-Tools, and Java for device detection and APK verification. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
+**Quest 3 is the only headset physically tested; v0.6.89 installed successfully, and its unsupported Dolby Vision Profile 7 warning prevented the previously observed crash. Broader interactive testing of its other changes is pending.** Quest 2 detection has automated installer coverage, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer; it needs Android Platform-Tools, SDK Build-Tools, and Java for device detection and APK verification. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
 
 Check [Releases](https://github.com/RandyNinja/StreamVR3D-Releases/releases) for available signed Quest APKs, Windows setup packages, SHA-256 checksums, and verification notes. Do not install files described as official StreamVR3D releases from other sites.
 
