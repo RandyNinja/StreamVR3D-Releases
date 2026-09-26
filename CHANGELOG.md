@@ -1,5 +1,14 @@
 # Changelog
 
+## [v0.6.89 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.89) — 26 September 2026
+
+- Started Live TV integration for channels supplied by compatible installed addons. The Live TV page offers country/category filters, selected-channel preview, and optional programme guides; no channels are bundled. Earlier Quest testing confirmed one MediaFusion channel, but broad addon and guide compatibility remains unverified.
+- Anime now separates TV series and Movies catalogues and offers an optional English-dub catalogue filter for the included Anime Catalogs source. The filter affects catalogue entries, not playback audio tracks.
+- Improved addon catalogue navigation, TMDB Collections browsing, duplicate-addon setup choices, and playback seeking/recovery. Added Clear links to the in-headset addon setup browser; its interactive Quest check remains pending.
+- The signed v0.6.89/code 142 Quest APK passed Android v3 signature and 16 KB alignment checks, and 561 Unity EditMode tests passed. It installed as an update on Quest 3. Replaying the previously crash-causing Dolby Vision Profile 7 source showed an unsupported warning without an app crash; Profile 7 remains unplayable. Physical Quest 2 support and broader headset checks remain pending. No Windows installer was verified against this APK.
+
+
+
 ## [v0.6.69 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.69) — 26 September 2026
 
 - Movies, TV, Anime, and compatible addon catalogues use a unified five-column grid. Adult VR retains six columns with row-by-row navigation. Returning from details restores focus and position.
