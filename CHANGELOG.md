@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.6.69 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.69) — 26 September 2026
+
+- Movies, TV, Anime, and compatible addon catalogues use a unified five-column grid. Adult VR retains six columns with row-by-row navigation. Returning from details restores focus and position.
+- Compatible addon catalogues can appear in the matching menus. Provider and genre pages load independently, continue after short pages, and retry failures. Recent sorting uses full provider dates when available.
+- Enlarged the Home hero and trailer area, reduced repeated catalogue reads and artwork cache evictions, and fixed clipping in Settings and source summaries.
+- Published the signed v0.6.69/code 122 Quest APK with a matching SHA-256 file. The Android v3 signature and 16 KB alignment were verified; 490 Unity EditMode tests and 35 offline interface fixture checks passed. It installed as an update on Quest 3 and Android reported v0.6.69/code 122.
+- Interactive headset testing, live configured addons, native playback, headset performance, and Quest 2 remain unverified for this build. The Real-Debrid red-link/Access Denied issue is paused and is not fixed here. No Windows installer was verified against this APK.
+
 ## [v0.6.61 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.61) — 25 September 2026
 
 - Passed safe, non-credential Stremio request headers into Media3 playback; credential headers remain excluded.
