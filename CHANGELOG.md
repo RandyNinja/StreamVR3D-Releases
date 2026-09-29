@@ -1,5 +1,12 @@
 # Changelog
 
+
+## [v0.6.106 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.106) — 29 September 2026
+
+- Controller B/Y and Escape Back now take priority over optional refresh work and remain responsive while busy. Independent controller presses are handled separately.
+- Fixed Back behavior in the playback rail, source filters, and season picker. Stale focus overlays no longer intercept Back; pending source, autoplay, and cloud callbacks are invalidated when leaving their screens.
+- The signed v0.6.106/code 159 Quest APK passed Android v3 signature verification and 626 Unity EditMode tests. It installed as an update on Quest 3 with app data preserved, and the owner confirmed the controller Back fix. Wider headset interactions and physical Quest 2 support remain unverified. No Windows installer was verified for this build.
+
 ## [v0.6.89 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.89) — 26 September 2026
 
 - Started Live TV integration for channels supplied by compatible installed addons. The Live TV page offers country/category filters, selected-channel preview, and optional programme guides; no channels are bundled. Earlier Quest testing confirmed one MediaFusion channel, but broad addon and guide compatibility remains unverified.
