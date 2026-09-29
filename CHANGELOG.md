@@ -6,6 +6,7 @@
 - Restored Sources and catalogue thumbstick scrolling by routing shelf input only from the controller whose pointer is over the shelf. Invalid controller ownership no longer falls back to the left-hand ray.
 - Screen grip starts only after a direct ray hit on the movie screen. The flat cinema can reach 800% size and 30 m distance, with faster grip controls, larger steps, expanded offsets, and size presets through 800%. Curvature is limited when a huge screen is close to the viewer.
 - The signed v0.6.108/code 161 APK passed Android IL2CPP build and v3 signature checks. It installed over the prior build on Quest 3 with data preserved and launched without an immediate runtime exception. The owner confirmed the scrolling and cinema controls work. Physical Quest 2 support remains untested; no Windows installer was verified for this build.
+- The [v0.6.108 release notes](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.108) now include a full improvement summary since v0.6.89: redesigned tinted-glass menus, compact playback rail and separate controls panel, trailer autoplay, My List shelf, clearer rendering, high-precision video bridge, Reset View and grip placement, and navigation fixes.
 
 ## [v0.6.106 preview](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.106) — 29 September 2026
 
