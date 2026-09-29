@@ -1,4 +1,4 @@
-**Latest preview:** [Download StreamVR3D v0.6.106 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.106). It installed as an update on Quest 3 with app data preserved, and the owner confirmed the controller Back fix on the headset. The 626 automated tests passed. Broader interactions and physical Quest 2 support remain unverified. See the release notes for changes and verification limits.
+**Latest preview:** [Download StreamVR3D v0.6.108 for Quest](https://github.com/RandyNinja/StreamVR3D-Releases/releases/tag/v0.6.108). It installed as an update on Quest 3 with app data preserved; the owner confirmed the Sources/catalogue scrolling and new cinema controls work. Quest 2 remains untested on physical hardware. See the release notes for changes and verification limits.
 
 # StreamVR3D
 
@@ -22,7 +22,8 @@ MDBList watchlist screens are included in v0.6.57, but normal account pairing is
 
 ## Quest installation requirements
 
-**Quest 3 is the only headset physically tested; v0.6.106 installed successfully as an update, and the controller Back fix was confirmed on the headset. Broader testing of this build is pending.** Quest 2 detection has automated installer coverage, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer; it needs Android Platform-Tools, SDK Build-Tools, and Java for device detection and APK verification. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
+
+**Quest 3 is the only headset physically tested; v0.6.108 installed successfully as an update, and the owner confirmed the scrolling and cinema controls work.** Quest 2 detection has automated installer coverage, but installation and playback have not been tested on a physical Quest 2. Installation needs the official Quest APK, Meta developer access with Developer Mode enabled, a computer, a data-capable USB-C cable, and USB debugging approval on the headset. You can install the APK with Meta Quest Developer Hub, SideQuest Advanced Installer, or ADB. The optional StreamVR3D Windows companion also works as an installer; it needs Android Platform-Tools, SDK Build-Tools, and Java for device detection and APK verification. It is not a PC video player. See the [installation guide](docs/installation.md) for each method and update precautions.
 
 Check [Releases](https://github.com/RandyNinja/StreamVR3D-Releases/releases) for available signed Quest APKs, Windows setup packages, SHA-256 checksums, and verification notes. Do not install files described as official StreamVR3D releases from other sites.
 
